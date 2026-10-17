@@ -133,8 +133,7 @@ The dataset source, reproducibility instructions, and detailed business recommen
 
 ## Project Status
 
-Dashboard development completed. Final documentation, reproducibility checks, and publication preparation are in progress.
-
+Core SQL analysis, Python data preparation, Power BI dashboards, and GitHub documentation completed. Reproducibility testing, dataset attribution, and cross-dashboard metric reconciliation are being finalized.
 
 ## Power BI Dashboard Gallery
 
