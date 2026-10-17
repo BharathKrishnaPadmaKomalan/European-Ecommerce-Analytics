@@ -10,6 +10,40 @@ This project analyzes historical European online retail transactions to investig
 
 The project combines Python-based data preparation, PostgreSQL analytics, and interactive Power BI dashboards to transform transactional data into business insights.
 
+## Dataset Source
+
+This project uses the **Online Retail II** dataset from the UCI Machine Learning Repository.
+
+The dataset contains 1,067,371 transaction records from a UK-based online retailer between 1 December 2009 and 9 December 2011.
+
+**Dataset details:**
+- **Creator:** Daqing Chen
+- **Repository:** UCI Machine Learning Repository
+- **Dataset ID:** 502
+- **Format:** Microsoft Excel (`online_retail_II.xlsx`)
+- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
+- **Official source:** https://archive.ics.uci.edu/dataset/502/online+retail+ii
+- **DOI:** https://doi.org/10.24432/C5CG6D
+
+### Dataset Setup
+
+1. Download the Online Retail II dataset from the official UCI repository.
+2. Extract the downloaded archive if necessary.
+3. Create the `data/raw/` directory inside the project if it does not already exist.
+4. Place `online_retail_II.xlsx` inside `data/raw/`.
+
+Expected file location:
+
+`data/raw/online_retail_II.xlsx`
+
+The original dataset is not included in this GitHub repository. Users can download it directly from UCI.
+
+### Dataset Attribution
+
+Chen, D. (2012). *Online Retail II* [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D
+
+The source dataset is distributed under CC BY 4.0. This project performs independent data cleaning, SQL analysis, customer segmentation, cohort analysis, and Power BI visualization.
+
 ## Business Objectives
 
 - Evaluate sales performance across products, countries, and time periods.
@@ -133,7 +167,18 @@ The dataset source, reproducibility instructions, and detailed business recommen
 
 ## Project Status
 
-Core SQL analysis, Python data preparation, Power BI dashboards, and GitHub documentation completed. Reproducibility testing, dataset attribution, and cross-dashboard metric reconciliation are being finalized.
+**Core analytics and dashboard development completed.**
+
+Completed components:
+- Python-based data exploration and cleaning
+- PostgreSQL business KPI analysis
+- Customer RFM segmentation
+- Monthly cohort retention analysis
+- Transaction quality and duplicate validation
+- Four Power BI dashboard pages
+- GitHub project documentation and dataset attribution
+
+Final reproducibility testing and reconciliation of customer analytics against deduplicated transactions remain to be completed.
 
 ## Power BI Dashboard Gallery
 
