@@ -167,18 +167,21 @@ The dataset source, reproducibility instructions, and detailed business recommen
 
 ## Project Status
 
-**Core analytics and dashboard development completed.**
+**Completed — End-to-End European E-Commerce Analytics Portfolio Project**
 
-Completed components:
-- Python-based data exploration and cleaning
-- PostgreSQL business KPI analysis
-- Customer RFM segmentation
-- Monthly cohort retention analysis
-- Transaction quality and duplicate validation
-- Four Power BI dashboard pages
-- GitHub project documentation and dataset attribution
+This project integrates Python-based data preparation, PostgreSQL analytical queries, and interactive Power BI dashboards.
 
-Final reproducibility testing and reconciliation of customer analytics against deduplicated transactions remain to be completed.
+**Validation completed:**
+- Both Jupyter notebooks successfully executed from a fresh kernel.
+- PostgreSQL business KPIs reconciled with Power BI results.
+- Customer RFM coverage and weighted cohort retention verified.
+- Duplicate detection and original-versus-deduplicated sales reconciled.
+- All four Power BI dashboard pages reviewed.
+- Project code and documentation maintained in GitHub.
+
+The repository includes Python notebooks, SQL analysis scripts, a Power BI report, dashboard screenshots, and methodology documentation.
+
+The original Online Retail II dataset is available separately from the UCI Machine Learning Repository.
 
 ## Power BI Dashboard Gallery
 
