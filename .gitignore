@@ -34,3 +34,5 @@ __pycache__/
 .env.*
 !.env.example
 /dashboards/European_Ecommerce_Analytics.pbix
+# Local notebook backups
+notebook_backups/
