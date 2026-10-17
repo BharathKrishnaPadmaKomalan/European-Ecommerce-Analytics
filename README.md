@@ -57,7 +57,7 @@ Classified cancellation and adjustment records, identified exact duplicates, and
 - Customer Retention
 - Product Performance & Data Quality
 
-Dashboard screenshots will be included in the `screenshots/` folder.
+Dashboard screenshots will be included in the `images/` folder.
 
 ## Tools Used
 
