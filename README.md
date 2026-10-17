@@ -67,6 +67,62 @@ Dashboard screenshots will be included in the `screenshots/` folder.
 
 **Power BI / DAX:** Interactive dashboards, business measures, and financial reconciliation.
 
+## Getting Started
+
+### Prerequisites
+
+- Python 3.11
+- Jupyter Notebook
+- PostgreSQL
+- Power BI Desktop (Windows)
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/BharathKrishnaPadmaKomalan/European-Ecommerce-Analytics.git
+cd European-Ecommerce-Analytics
+```
+
+Create and activate a Python environment, then install dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### Dataset Setup
+
+Place the source Excel dataset at:
+
+`data/raw/online_retail_II.xlsx`
+
+The dataset is not included in the repository. Refer to the dataset source and licensing information once documented.
+
+### Running the Notebooks
+
+Open Jupyter Notebook from the project root and run the notebooks in this order:
+
+1. `notebooks/01_data_exploration.ipynb`
+2. `notebooks/02_data_cleaning.ipynb`
+
+### SQL Analysis
+
+The `sql/` directory contains PostgreSQL queries for:
+
+- Business KPIs
+- Customer RFM segmentation
+- Customer cohort analysis
+- Data-quality validation
+
+The SQL scripts require the appropriate PostgreSQL tables and views to be prepared.
+
+### Power BI
+
+Open `powerbi/European_Ecommerce_Analytics.pbix` in Power BI Desktop.
+
+A configured PostgreSQL connection and access to the underlying database may be required to refresh the data.
+
 ## Data and Methodology Notes
 
 The dataset covers historical online retail transactions from 2009–2011. Results represent historical business activity, not current market conditions.
