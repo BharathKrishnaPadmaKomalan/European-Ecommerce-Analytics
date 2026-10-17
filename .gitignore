@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Virtual environments
+.env
+.venv/
+venv/
+
+# Datasets
+data/raw/
+data/processed/
+
+# Credentials
+credentials.json
+secrets.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+Untitled.ipynb
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Credentials
+.env
+.env.*
+!.env.example
+/dashboards/European_Ecommerce_Analytics.pbix
